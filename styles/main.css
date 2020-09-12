@@ -1,7 +1,17 @@
 * {
   margin: 0;
-  border: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+input {
+  border: 0;
+}
+button {
+  border: none;
+}
+.centered {
+  margin: auto;
+  text-align: center;
 }
 
 .container {
@@ -297,6 +307,7 @@ header img {
   border: 1px solid #000;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .side-posts .side-posts-header input::after {
   width: 2px;
@@ -345,5 +356,56 @@ header img {
 }
 .side-posts-item a {
   color: #1f1f1f;
+}
+.subscribe {
+  border: 2px solid #000;
+  height: 30vh;
+}
+.subscribe p {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}
+.subscribe h2 {
+  font-size: 4rem;
+}
+.subscribe input {
+  display: block;
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.5rem;
+}
+.subscribe button {
+  display: inline-block;
+  width: 15rem;
+  background-color: #13699b;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 2rem;
+  outline: none;
+  margin: auto;
+}
+
+.category .social {
+  margin: 2rem 0;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.category i {
+  display: inline-block;
+  margin: 0 2rem;
+  color: #1edbdb;
+  font-size: 4rem;
+  border-radius: 50%;
+}
+.category h6 {
+  font-size: 3rem;
+}
+.category li {
+  font-size: 2rem;
+  margin: 1rem 0;
 }
 /* =================== Ending the posts Section  =========== */
