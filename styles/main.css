@@ -214,6 +214,7 @@ header img {
 
 .posts {
   margin-top: 3rem;
+  height: 290vh;
 }
 .posts > .container {
   display: grid;
@@ -223,6 +224,7 @@ header img {
 }
 .main-posts {
   position: relative;
+  padding-bottom: 2rem;
 }
 .posts-header {
   margin: 3rem 0;
@@ -296,6 +298,20 @@ header img {
   height: 2rem;
   margin: 2rem auto;
 }
+.main-posts > hr {
+  display: inline-block;
+  width: 35%;
+}
+.main-posts > button {
+  width: 11rem;
+  background: #fff;
+  outline: none;
+  border: 1px solid #000;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  margin: 0 1rem;
+}
 
 /* ========== Starting The Sidebar ======== */
 .side-posts {
@@ -359,7 +375,7 @@ header img {
 }
 .subscribe {
   border: 2px solid #000;
-  height: 30vh;
+  height: 50vh;
 }
 .subscribe p {
   margin: 2rem 0;
@@ -409,3 +425,11 @@ header img {
   margin: 1rem 0;
 }
 /* =================== Ending the posts Section  =========== */
+/* =================== Starting Working on footer  =========== */
+.footer {
+  height: 70vh;
+}
+.footer img {
+  width: 100%;
+  height: 100%;
+}
