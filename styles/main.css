@@ -114,3 +114,83 @@
   background-color: #13699b;
   display: inline-block;
 }
+
+/* =================== Strting the main header  =========== */
+header .container {
+  position: relative;
+}
+header img {
+  width: 100%;
+}
+
+.header-cover {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header-cover .header-top {
+  height: 50%;
+}
+.header-cover .header-top button {
+  display: block;
+  width: 10rem;
+  border-radius: 0 20px 20px 0;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0.5rem;
+}
+.header-cover .header-top button:nth-child(1) {
+  margin: 2rem 0 1rem;
+  background-color: #fea175;
+}
+.header-cover button:nth-child(2) {
+  background-color: #1edbcd;
+}
+.header-cover .header-end {
+  width: 50%;
+  color: #fff;
+}
+.header-cover .header-end h2 {
+  font-size: 2rem;
+}
+.header-cover .header-end p {
+  margin: 1rem 0;
+}
+.header-cover .info {
+  display: flex;
+  align-items: center;
+}
+
+.header-cover .header-end h3 {
+  display: inline-block;
+}
+.header-cover .header-end .horizontal {
+  width: 2rem;
+  height: 2px;
+  background-color: #fff;
+  display: inline-block;
+  margin: 0 1rem;
+}
+.header-cover .header-end .vertical {
+  width: 2px;
+  height: 1.5rem;
+  background-color: #fff;
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.header-cover .header-end button {
+  width: 10rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  outline: none;
+  background-color: #13699b;
+  color: #fff;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+/* =================== Ending the main header  =========== */
